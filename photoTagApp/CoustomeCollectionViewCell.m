@@ -12,6 +12,10 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    [self setUp];
 }
-
+-(void)setUp
+{
+    self.layer.borderColor=(__bridge CGColorRef)([UIColor blueColor]);
+}
 @end

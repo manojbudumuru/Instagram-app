@@ -10,4 +10,9 @@
 
 @interface ImageTags : NSObject
 
+@property (strong,nonatomic) NSMutableArray * image;
+@property (strong,nonatomic) NSArray * photoArray;
+
+
+
 @end

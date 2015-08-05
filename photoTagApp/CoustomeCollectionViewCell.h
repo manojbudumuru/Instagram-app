@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CoustomeCollectionViewCell : UICollectionViewCell
-
+@interface CoustomeCollectionViewCell : UICollectionViewCell<UIGestureRecognizerDelegate>
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @end

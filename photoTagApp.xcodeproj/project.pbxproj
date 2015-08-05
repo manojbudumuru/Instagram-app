@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86726AB61B7148B200F6B820 /* FeedImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 86726AB51B7148B200F6B820 /* FeedImages.m */; };
+		86726AB91B71583E00F6B820 /* ParsedUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86726AB81B71583E00F6B820 /* ParsedUserData.m */; };
+		86726ABC1B715BD300F6B820 /* FeedCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86726ABB1B715BD300F6B820 /* FeedCollectionViewController.m */; };
 		86CDDA761B5D9920001CA785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CDDA751B5D9920001CA785 /* main.m */; };
 		86CDDA791B5D9920001CA785 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CDDA781B5D9920001CA785 /* AppDelegate.m */; };
 		86CDDA7C1B5D9920001CA785 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CDDA7B1B5D9920001CA785 /* ViewController.m */; };
@@ -14,6 +17,12 @@
 		86CDDA811B5D9920001CA785 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86CDDA801B5D9920001CA785 /* Images.xcassets */; };
 		86CDDA841B5D9920001CA785 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86CDDA821B5D9920001CA785 /* LaunchScreen.xib */; };
 		86CDDA901B5D9920001CA785 /* photoTagAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CDDA8F1B5D9920001CA785 /* photoTagAppTests.m */; };
+		86CDDAA11B5DB14C001CA785 /* ClientCalling.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CDDAA01B5DB14C001CA785 /* ClientCalling.m */; };
+		86CDDAA41B5DC1BB001CA785 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CDDAA31B5DC1BB001CA785 /* PhotoViewController.m */; };
+		86CDDAAA1B5DE5C0001CA785 /* ImageTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CDDAA91B5DE5C0001CA785 /* ImageTags.m */; };
+		86E0156C1B5F76B100398CEC /* CoustomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E0156A1B5F76B100398CEC /* CoustomeCollectionViewCell.m */; };
+		86E0156D1B5F76B100398CEC /* CoustomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86E0156B1B5F76B100398CEC /* CoustomeCollectionViewCell.xib */; };
+		87E371B1763E22B0BD8588E2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E53DA5BD1B280B997E112639 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86726AB41B7148B200F6B820 /* FeedImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedImages.h; sourceTree = "<group>"; };
+		86726AB51B7148B200F6B820 /* FeedImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedImages.m; sourceTree = "<group>"; };
+		86726AB71B71583E00F6B820 /* ParsedUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParsedUserData.h; sourceTree = "<group>"; };
+		86726AB81B71583E00F6B820 /* ParsedUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParsedUserData.m; sourceTree = "<group>"; };
+		86726ABA1B715BD300F6B820 /* FeedCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCollectionViewController.h; sourceTree = "<group>"; };
+		86726ABB1B715BD300F6B820 /* FeedCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCollectionViewController.m; sourceTree = "<group>"; };
 		86CDDA701B5D9920001CA785 /* photoTagApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoTagApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CDDA741B5D9920001CA785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86CDDA751B5D9920001CA785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +55,18 @@
 		86CDDA891B5D9920001CA785 /* photoTagAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoTagAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CDDA8E1B5D9920001CA785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86CDDA8F1B5D9920001CA785 /* photoTagAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photoTagAppTests.m; sourceTree = "<group>"; };
+		86CDDA9F1B5DB14C001CA785 /* ClientCalling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientCalling.h; sourceTree = "<group>"; };
+		86CDDAA01B5DB14C001CA785 /* ClientCalling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientCalling.m; sourceTree = "<group>"; };
+		86CDDAA21B5DC1BB001CA785 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		86CDDAA31B5DC1BB001CA785 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		86CDDAA81B5DE5C0001CA785 /* ImageTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTags.h; sourceTree = "<group>"; };
+		86CDDAA91B5DE5C0001CA785 /* ImageTags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTags.m; sourceTree = "<group>"; };
+		86E015691B5F76B100398CEC /* CoustomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoustomeCollectionViewCell.h; sourceTree = "<group>"; };
+		86E0156A1B5F76B100398CEC /* CoustomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoustomeCollectionViewCell.m; sourceTree = "<group>"; };
+		86E0156B1B5F76B100398CEC /* CoustomeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoustomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		9764C6C0C955F42795EE1400 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E53DA5BD1B280B997E112639 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21F8752E4AEDE584BA04A58 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E371B1763E22B0BD8588E2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +94,8 @@
 				86CDDA721B5D9920001CA785 /* photoTagApp */,
 				86CDDA8C1B5D9920001CA785 /* photoTagAppTests */,
 				86CDDA711B5D9920001CA785 /* Products */,
+				F31EBD46EDB67364CCBE8466 /* Pods */,
+				F197F516A6890CA41EE28620 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +111,11 @@
 		86CDDA721B5D9920001CA785 /* photoTagApp */ = {
 			isa = PBXGroup;
 			children = (
+				86CDDA991B5DA544001CA785 /* Model */,
+				86CDDA9A1B5DA54C001CA785 /* ViewController */,
 				86CDDA771B5D9920001CA785 /* AppDelegate.h */,
 				86CDDA781B5D9920001CA785 /* AppDelegate.m */,
-				86CDDA7A1B5D9920001CA785 /* ViewController.h */,
-				86CDDA7B1B5D9920001CA785 /* ViewController.m */,
 				86CDDA7D1B5D9920001CA785 /* Main.storyboard */,
-				86CDDA801B5D9920001CA785 /* Images.xcassets */,
-				86CDDA821B5D9920001CA785 /* LaunchScreen.xib */,
 				86CDDA731B5D9920001CA785 /* Supporting Files */,
 			);
 			path = photoTagApp;
@@ -96,6 +124,8 @@
 		86CDDA731B5D9920001CA785 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				86CDDA801B5D9920001CA785 /* Images.xcassets */,
+				86CDDA821B5D9920001CA785 /* LaunchScreen.xib */,
 				86CDDA741B5D9920001CA785 /* Info.plist */,
 				86CDDA751B5D9920001CA785 /* main.m */,
 			);
@@ -119,6 +149,54 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		86CDDA991B5DA544001CA785 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86CDDA9F1B5DB14C001CA785 /* ClientCalling.h */,
+				86CDDAA01B5DB14C001CA785 /* ClientCalling.m */,
+				86CDDAA81B5DE5C0001CA785 /* ImageTags.h */,
+				86CDDAA91B5DE5C0001CA785 /* ImageTags.m */,
+				86726AB41B7148B200F6B820 /* FeedImages.h */,
+				86726AB51B7148B200F6B820 /* FeedImages.m */,
+				86726AB71B71583E00F6B820 /* ParsedUserData.h */,
+				86726AB81B71583E00F6B820 /* ParsedUserData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		86CDDA9A1B5DA54C001CA785 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				86CDDA7A1B5D9920001CA785 /* ViewController.h */,
+				86CDDA7B1B5D9920001CA785 /* ViewController.m */,
+				86CDDAA21B5DC1BB001CA785 /* PhotoViewController.h */,
+				86CDDAA31B5DC1BB001CA785 /* PhotoViewController.m */,
+				86E015691B5F76B100398CEC /* CoustomeCollectionViewCell.h */,
+				86E0156A1B5F76B100398CEC /* CoustomeCollectionViewCell.m */,
+				86E0156B1B5F76B100398CEC /* CoustomeCollectionViewCell.xib */,
+				86726ABA1B715BD300F6B820 /* FeedCollectionViewController.h */,
+				86726ABB1B715BD300F6B820 /* FeedCollectionViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F197F516A6890CA41EE28620 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E53DA5BD1B280B997E112639 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F31EBD46EDB67364CCBE8466 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F21F8752E4AEDE584BA04A58 /* Pods.debug.xcconfig */,
+				9764C6C0C955F42795EE1400 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86CDDA931B5D9920001CA785 /* Build configuration list for PBXNativeTarget "photoTagApp" */;
 			buildPhases = (
+				BF1D932EE6A1A246B632BE38 /* Check Pods Manifest.lock */,
 				86CDDA6C1B5D9920001CA785 /* Sources */,
 				86CDDA6D1B5D9920001CA785 /* Frameworks */,
 				86CDDA6E1B5D9920001CA785 /* Resources */,
+				4DDBC9F797A1904C724842B5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86CDDA7F1B5D9920001CA785 /* Main.storyboard in Resources */,
+				86E0156D1B5F76B100398CEC /* CoustomeCollectionViewCell.xib in Resources */,
 				86CDDA841B5D9920001CA785 /* LaunchScreen.xib in Resources */,
 				86CDDA811B5D9920001CA785 /* Images.xcassets in Resources */,
 			);
@@ -214,14 +295,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DDBC9F797A1904C724842B5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1D932EE6A1A246B632BE38 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86CDDA6C1B5D9920001CA785 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				86CDDA7C1B5D9920001CA785 /* ViewController.m in Sources */,
+				86726AB61B7148B200F6B820 /* FeedImages.m in Sources */,
 				86CDDA791B5D9920001CA785 /* AppDelegate.m in Sources */,
 				86CDDA761B5D9920001CA785 /* main.m in Sources */,
+				86726ABC1B715BD300F6B820 /* FeedCollectionViewController.m in Sources */,
+				86CDDAA11B5DB14C001CA785 /* ClientCalling.m in Sources */,
+				86E0156C1B5F76B100398CEC /* CoustomeCollectionViewCell.m in Sources */,
+				86CDDAAA1B5DE5C0001CA785 /* ImageTags.m in Sources */,
+				86726AB91B71583E00F6B820 /* ParsedUserData.m in Sources */,
+				86CDDAA41B5DC1BB001CA785 /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,21 +466,27 @@
 		};
 		86CDDA941B5D9920001CA785 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F21F8752E4AEDE584BA04A58 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = photoTagApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		86CDDA951B5D9920001CA785 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9764C6C0C955F42795EE1400 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = photoTagApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +543,7 @@
 				86CDDA951B5D9920001CA785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86CDDA961B5D9920001CA785 /* Build configuration list for PBXNativeTarget "photoTagAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +552,7 @@
 				86CDDA981B5D9920001CA785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

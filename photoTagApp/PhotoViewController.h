@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LXReorderableCollectionViewFlowLayout.h"
+#import "ImageTags.h"
+#import "CoustomeCollectionViewCell.h"
 
-@interface PhotoViewController : UIViewController
+@interface PhotoViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate,UIGestureRecognizerDelegate,LXReorderableCollectionViewDataSource,LXReorderableCollectionViewDelegateFlowLayout>
+
+
+@property (weak, nonatomic) IBOutlet UICollectionView *photoCollectionVIew;
+
+
+@property (strong,nonatomic) NSMutableArray * localArray;
+@property (strong,nonatomic) ImageTags * imageTags;
 
 @end
